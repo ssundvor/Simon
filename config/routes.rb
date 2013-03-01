@@ -1,5 +1,6 @@
 Simon::Application.routes.draw do
   get 'about' => 'pages#about'
+  get 'play' => 'pages#play'
   root :to => 'pages#home'
 
   # The priority is based upon order of creation:
