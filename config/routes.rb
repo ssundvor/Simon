@@ -1,4 +1,10 @@
 Simon::Application.routes.draw do
+  resources :microposts
+
+
+  resources :users
+
+
   get 'about' => 'pages#about'
   get 'play' => 'pages#play'
   root :to => 'pages#home'
